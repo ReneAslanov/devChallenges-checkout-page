@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout Page</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <script src="./index.js" defer></script>
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="header-wrapper">
+      <h1 class="header-headline">Checkout</h1>
+    </header>
+
+    <main class="main-content-wrapper">
+      <form class="main-sidebar-left-wrapper" id="submit">
+
+        <section class="main-sidebar-left-card-wrapper">
+          <h2 class="sub-heading">Contact infomation</h2>
+
+          <div class="main-sidebar-left-card-item">
+            <label class="main-sidebar-left-input-label" for="email">E-mail</label>
+            <div class="main-sidebar-left-input-wrapper">
+              <img class="main-sidebar-left-photo" src="./photos/mail.svg" alt="mail">
+              <input class="main-sidebar-left-input" type="email" placeholder="Enter your email..." required id="email">
+            </div>
+          </div>
+
+
+          <div class="main-sidebar-left-card-item">
+            <label class="main-sidebar-left-input-label" for="phone">Phone</label>
+            <div class="main-sidebar-left-input-wrapper">
+              <img class="main-sidebar-left-photo" src="./photos/phone.svg" alt="mail">
+              <input class="main-sidebar-left-input" type="tel" placeholder="Enter your phone..." required id="phone">
+            </div>
+          </div>
+
+        </section>
+
+
+        <section class="main-sidebar-left-card-wrapper">
+          <h2 class="sub-heading">Shipping address</h2>
+
+          <div class="main-sidebar-left-card-item">
+            <label class="main-sidebar-left-input-label" for="name">Full name</label>
+            <div class="main-sidebar-left-input-wrapper">
+              <img class="main-sidebar-left-photo" src="./photos/person.svg" alt="mail">
+              <input class="main-sidebar-left-input" type="text" placeholder="Enter your name..." required id="name">
+            </div>
+          </div>
+
+
+          <div class="main-sidebar-left-card-item">
+            <label class="main-sidebar-left-input-label" for="adress">Adress</label>
+            <div class="main-sidebar-left-input-wrapper">
+              <img class="main-sidebar-left-photo" src="./photos/house.svg" alt="mail">
+              <input class="main-sidebar-left-input" type="tel" placeholder="Your address.." required id="adress">
+            </div>
+          </div>
+
+          <div class="main-sidebar-left-card-item">
+            <label class="main-sidebar-left-input-label" for="city">City</label>
+            <div class="main-sidebar-left-input-wrapper">
+              <img class="main-sidebar-left-photo" src="./photos/city.svg" alt="mail">
+              <input class="main-sidebar-left-input" type="text" placeholder="Your city.." required id="city">
+            </div>
+          </div>
+
+          <div class="main-sidebar-left-card-bottom-wrapper">
+
+            <div class="main-sidebar-left-card-item">
+              <label class="main-sidebar-left-input-label" for="country">Country</label>
+              <div class="main-sidebar-left-input-wrapper">
+                <img class="main-sidebar-left-photo" src="./photos/world.svg" alt="mail">
+                <select class="main-sidebar-left-input" placeholder="Your country.." required id="country">
+                  <option value="Finland">Finland</option>
+                  <option value="Netherlands">Netherlands</option>
+                  <option value="Spain">Spain</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="main-sidebar-left-card-item">
+              <label class="main-sidebar-left-input-label" for="postal-code">Postal code</label>
+              <div class="main-sidebar-left-input-wrapper">
+                <img class="main-sidebar-left-photo" src="./photos/mailbox.svg" alt="mail">
+                <input class="main-sidebar-left-input" type="text" pattern="[0-9]{5}" placeholder="Your postal code.." required id="postal-code">
+              </div>
+            </div>
+
+          </div>
+
+          <div class="main-sidebar-left-checkbox-wrapper">
+            <input class="main-sidebar-left-checkbox" type="checkbox">
+            <h4 class="main-sidebar-left-checkbox-headline">Save this information for next time</h4>
+          </div>
+
+          <div class="main-sidebar-left-button-wrapper">
+            <button type="submit" class="main-sidebar-left-button" >Continue</button>
+          </div>
+
+        </section>
+
+      </form>
+
+
+      <section class="main-sidebar-right-wrapper">
+        <div class="main-sidebar-right-card-wrapper">
+          <div class="main-sidebar-right-card">
+            <div class="main-sidebar-right-photo-wrapper">
+              <img class="main-sidebar-right-photo" src="./photos/photo1.png" alt="bag">
+            </div>
+
+            <div class="main-sidebar-right-card-content-wrapper">
+              <h2 class="sub-heading">Vintage Backbag</h2>
+              <div class="main-sidebar-right-card-price-wrapper">
+                <p class="main-sidebar-right-card-new-price">$54.99</p>
+                <p class="main-sidebar-right-card-old-price">$94.99</p>
+              </div>
+
+              <div class="main-sidebar-right-card-amount-wrapper">
+                <div class="main-sidebar-right-card-amount-change subtract">
+                  <div class="main-sidebar-right-card-amount-bar"></div>
+                </div>
+
+                <p class="main-sidebar-right-card-amount" id="backbag">1</p>
+
+                <div class="main-sidebar-right-card-amount-change add">
+                  <div class="main-sidebar-right-card-amount-bar"></div>
+                  <div class="main-sidebar-right-card-amount-bar vertical"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="main-sidebar-right-card">
+            <div class="main-sidebar-right-photo-wrapper">
+              <img class="main-sidebar-right-photo" src="./photos/photo2.png" alt="bag">
+            </div>
+
+            <div class="main-sidebar-right-card-content-wrapper">
+              <h2 class="sub-heading">Levi Shoes</h2>
+              <div class="main-sidebar-right-card-price-wrapper">
+                <p class="main-sidebar-right-card-new-price">$74.99</p>
+                <p class="main-sidebar-right-card-old-price">$124.99</p>
+              </div>
+
+              <div class="main-sidebar-right-card-amount-wrapper">
+                <div class="main-sidebar-right-card-amount-change subtract">
+                  <div class="main-sidebar-right-card-amount-bar"></div>
+                </div>
+
+                <p class="main-sidebar-right-card-amount" id="shoes">1</p>
+
+                <div class="main-sidebar-right-card-amount-change add">
+                  <div class="main-sidebar-right-card-amount-bar"></div>
+                  <div class="main-sidebar-right-card-amount-bar vertical"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="main-sidebar-right-footer-wrapper">
+          <div class="main-sidebar-right-footer-card">
+            <h2 class="sub-heading">Shipping</h2>
+            <p class="main-sidebar-right-footer-card-cost">$19</p>
+          </div>
+
+          <div class="main-sidebar-right-footer-card">
+            <h2 class="sub-heading">Total</h2>
+            <p class="main-sidebar-right-footer-card-cost">$148.98</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
