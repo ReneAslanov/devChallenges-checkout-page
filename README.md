@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://lustrous-lokum-ccbbd1.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/ReneAslanov/devChallenges-checkout-page/tree/main"">
+    <a href="https://github.com/ReneAslanov/devChallenges-checkout-page/tree/main">
       Solution
     </a>
     <span> | </span>
@@ -29,8 +29,8 @@
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
+- [How to use](#how-to-use)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
